@@ -42,7 +42,7 @@ const BookingModal = ({openBooking,handleBookingClose,booking,setBookingSuccess}
           serviceName: name
         }
         //send to the server
-        fetch('http://localhost:5000/appointments',{
+        fetch('https://afternoon-falls-71642.herokuapp.com/appointments',{
           method: 'POST',
           headers: {
             'content-type': 'application/json'

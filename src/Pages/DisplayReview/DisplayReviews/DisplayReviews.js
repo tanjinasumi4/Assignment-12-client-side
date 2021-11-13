@@ -4,7 +4,7 @@ import DisplayReview from '../DisplayReview/DisplayReview';
 const DisplayReviews = () => {
     const [reviews, setReviews] = useState([]);
     useEffect(() => {
-        const url = 'http://localhost:5000/review'
+        const url = 'https://afternoon-falls-71642.herokuapp.com/review'
         fetch(url)
             .then(res => res.json())
             .then(data => setReviews(data))
