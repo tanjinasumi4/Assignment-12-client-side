@@ -4,10 +4,11 @@ import Grid from '@mui/material/Grid';
 import lady from '../../../images/Flawless.jpg';
 import cover from '../../../images/fall-cover-large.png';
 import { Button, Typography } from '@mui/material';
+import { Link } from "react-router-dom";
 
 const coverBg = {
     background: `url(${cover})`,
-    marginTop: 150
+    marginTop: 150,
 }
 
 const Explore = () => {
@@ -25,12 +26,13 @@ const Explore = () => {
               FIND A LIPSTICK
               </Typography>
               <Typography variant="h4">
-              Explore here for more lipstick
+              NEVER NEEDED TOUCH UP
               </Typography>
               <Typography variant="h6" style={{fontSize:30,fontWeight:400}}>
               Explore here for more lipstick
               </Typography>
-              <Button variant="contained">Explore here</Button> 
+              <Link to="/explore"><Button variant="contained">Explore here</Button></Link>
+              {/* <Button variant="contained">Explore here</Button>  */}
            </Box>   
         </Grid>
         </Grid>

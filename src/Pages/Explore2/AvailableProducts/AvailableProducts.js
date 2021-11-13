@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import lip7 from '../../../images/lipstick1.jpg';
 import lip8 from '../../../images/lipstick2.jpg';
 import lip9 from '../../../images/lipstick3.jpg';
@@ -9,7 +9,7 @@ import lip13 from '../../../images/lipstick7.jpg';
 import lip14 from '../../../images/lipstick8.jpg';
 import lip15 from '../../../images/lipstick9.jpg';
 import lip16 from '../../../images/lipstick10.jpg';
-import { Container, Grid } from '@mui/material';
+import { Container, Grid, Alert } from '@mui/material';
 import Booking from '../Booking/Booking';
 
 
@@ -97,14 +97,18 @@ const bookings = [
 ]
 
 const AvailableProducts = () => {
+    const [bookingSuccess, setBookingSuccess] = useState(false);
+
     return (
         <Container>
             <h2>Available products</h2>
+            {bookingSuccess && <Alert severity="success">Products booked Successfully!</Alert>}
             <Grid container spacing={2}>      
                 {
                     bookings.map(booking => <Booking
                        key={booking.id}
                        booking={booking}
+                       setBookingSuccess={setBookingSuccess}
                     >
 
                     </Booking>)

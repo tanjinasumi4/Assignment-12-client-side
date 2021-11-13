@@ -1,44 +1,34 @@
-# Getting Started with Create React App
+# WELCOME TO THE GLAMOUR WORLD
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+THE ULTIMATE NUDE LIPSTICK GALLERY [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Our Glamour Beauty
 
-In the project directory, you can run:
+Glamour world has lipstick, from matte to high-shine, to play up your pout. 
 
-### `npm start`
+### HIGH-IMPACT COLOR
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Richly pigmented liquid lipstick with a matte finish.Infused with primer for all day comfortable and weightless wear, with a blend of Jojoba, Apricot and Sunflower Oils
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### WHAT IT IS
+ A weightless liquid matte lipstick with a precision tip that lines and fills lips in a single swipe. Infused with primer oil complex, a blend of jojoba,
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### WHY YOU'LL LOVE IT
 
-### `npm run build`
+SuperStay Matte Ink™ Liquid Lipstick gives you a flawless matte finish in a range of super saturated shades. Made For All Lipstick makeup features specially selected and obsessively tested pigments that make these universal lipstick shades looks sensational on all complexions.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+INK CRAYON LIPSTICK INTO THE ZODIAC is a long-lasting lip crayon available in a range of 32 vibrant matte shades that last up to 8 hours. Made For All Lipstick makeup features specially selected and obsessively tested pigments that make these universal lipstick shades looks sensational on all.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Except these you'll find more lipstick our website.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### You will be love with these color
 
-### `npm run eject`
+**We provide you the best color and lipstick**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The name of this lipstick describes it perfectly. It is an orangey color that is very popular right now. Crushed Coral is a perfect blend between orange and pink that looks amazing in the summer months. I think this lipstick would complement any boho chic look perfectly!
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
+With all the lipstick options out there how on earth are you supposed to know which is best?! Weve done the dirty work for you and sorted the good from the bad. Learn more about how we rate lipsticks here.
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).

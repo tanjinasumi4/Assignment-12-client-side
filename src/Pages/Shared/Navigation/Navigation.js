@@ -25,12 +25,18 @@ const Navigation = () => {
               <MenuIcon />
             </IconButton>
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-              Lipstick
+              Glamour World
             </Typography>
-            <Link to="/explore"><Button color="inherit">Explore</Button></Link>
+            <Link to="/explore"><Button style={{textDecoration:'none',color:'white'}} color="inherit">Explore</Button></Link>
             {
-               user?.email ?   
-               <Button onClick={logout} color="inherit">Logout</Button>
+               user?.email ? 
+               <Box>
+                 <NavLink style={{textDecoration:'none',color:'white'}} to="/dashboard">
+                 <Button color="inherit">Dashboard</Button>
+                 </NavLink>
+                   <Button onClick={logout} color="inherit">Logout</Button>
+                   
+               </Box>
                :
                <NavLink style={{textDecoration:'none',color:'white'}} to="/login">
                <Button color="inherit">Login</Button>

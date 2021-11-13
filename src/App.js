@@ -11,6 +11,11 @@ import Login from './Pages/Login/Login/Login';
 import Register from './Pages/Login/Register/Register';
 import AuthProvider from './contexts/AuthProvider/AuthProvider';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
+import Dashboard from './Pages/Dashboard/Dashboard/Dashboard';
+import DashboardHome from './Pages/Dashboard/DashboardHome/DashboardHome';
+import Review from './Pages/Review/Review';
+import DisplayReviews from './Pages/DisplayReview/DisplayReviews/DisplayReviews';
+import Pay from './Pages/Dashboard/Pay/Pay';
 
 function App() {
   return (
@@ -21,6 +26,17 @@ function App() {
           <PrivateRoute path="/explore">
             <Explore2 />
           </PrivateRoute>
+          <PrivateRoute path="/dashboard">
+            <Dashboard />
+          </PrivateRoute>
+
+          <PrivateRoute path="/review">
+            <Review></Review>
+          </PrivateRoute>
+
+          <Route path="/pay">
+            <Pay></Pay>
+          </Route>
           <Route path="/home">
             <Home />
           </Route>
@@ -30,6 +46,11 @@ function App() {
           <Route path="/register">
             <Register />
           </Route>
+          
+          <Route path="/review">
+            <DisplayReviews></DisplayReviews>
+          </Route>
+
           <Route exact path="/">
             <Home />
           </Route>
