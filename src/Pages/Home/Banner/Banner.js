@@ -13,10 +13,10 @@ const Banner = () => {
                GLAMOUR WORLD 
             </Typography>
 
-            <img src={banner} alt="" />
+            <img style={{height : '100%' , width : '100%'}} src={banner} alt="" />
            
             <Typography variant="h6" style={{marginTop: 20, color:'text.primary'}}>
-                Welcome to the Glamour world.Glamour world has lipstick, from matte to high-shine, to play up your pout. Go from dramatic reds or purples for a night out to subdued nudes or pinks for a job interview. With a shade range as wide as ours, there’s a color to complement every skin tone. Now, amp up those luscious lips with our traditional and liquid lipstick collection! 
+                Welcome to the Glamour world.Glamour world has lipstick, from matte to high-shine, to play up your pout. Go from dramatic reds or purples for a night out to subdued nudes or pinks for a job interview. With a shade range as wide as ours, there’s a color to complement every skin tone. Now, amp up those luscious lips with our traditional and liquid lipstick collection!Be Beautiful by the beauty of Glamour World. 
             </Typography>
             <Button sx={{m: 2}} variant="contained">Learn more</Button>
             
